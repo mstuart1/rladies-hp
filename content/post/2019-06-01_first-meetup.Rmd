@@ -2,8 +2,8 @@
 title: "First Event approaching"
 author: "Michelle Stuart"
 date: '2019-06-01'
-tags: meetup
-categories: Events
+tags: ["meetup"]
+categories: ["Events"]
 ---
 
 ```{r setup, include=FALSE}
