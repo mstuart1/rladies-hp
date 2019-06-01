@@ -1,0 +1,56 @@
+baseurl = "/"
+languageCode = "en-us"
+title = "R-Ladies Highland Park"
+theme = "hugo-lithium"
+googleAnalytics = ""
+disqusShortname = ""
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+enableEmoji = true
+
+[permalinks]
+    post = "/:year/:month/:day/:slug/"
+
+[[menu.main]]
+    name = "About"
+    pre = ""
+    url = "/about/"
+    weight = 1
+[[menu.main]]
+    name = "Meetup"
+    pre = "fa-meetup"
+    url = "https://www.meetup.com/rladies-highland-park/"
+    weight = 2
+[[menu.main]]
+    name = "Twitter"
+    pre = "fa-twitter"
+    url = "https://twitter.com/RLadiesHPNJ"
+    weight = 3
+[[menu.main]]
+    name = "News"
+    pre = "fa-bullhorn"
+    url = "/post/"
+    weight = 4
+
+[params]
+    description = "R-Ladies Highland Park is part of a world-wide organization to promote gender diversity in the R community. <br> To find more details about the R-Ladies globabl initiative, visit https://rladies.org."
+    chapter = "Highland Park, New Jersey"
+    customCSS = ["css/rladies.css", "css/font-awesome.min.css"]
+
+    # options for highlight.js (version, additional languages, and theme)
+    highlightjsVersion = "9.12.0"
+    highlightjsCDN = "//cdnjs.cloudflare.com/ajax/libs"
+    highlightjsLang = ["r", "yaml"]
+    highlightjsTheme = "github"
+
+    MathJaxCDN = "//cdnjs.cloudflare.com/ajax/libs"
+    MathJaxVersion = "2.7.5"
+
+    # path to the favicon, under "static"
+    favicon = "favicon.ico"
+
+    [params.logo]
+    url = "rladies-r-logo.png"
+    width = 50
+    height = 50
+    alt = "Logo"
+
